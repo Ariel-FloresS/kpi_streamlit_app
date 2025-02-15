@@ -1,0 +1,11 @@
+|Unnamed: 0.1|Unnamed: 0|KPI|KPI_Id|KPI_Value_Date|KPI_Values
+0|0|0|KPI1|KPI1_1422025|14/02/2025|"{""id"": 1, ""nombre"": ""Juan Pérez""}"
+1|1|1|KPI2|KPI2_1522025|15/02/2025|"{""producto_id"": 101, ""nombre_producto"": ""Galletas"", ""precio"": 2.50}"
+2|2|2|KPI3|KPI3_1622025|16/02/2025|"{""cliente_id"": 202, ""nombre_cliente"": ""Ana López"", ""correo"": ""ana.lopez@example.com"", ""telefono"": ""555-1234""}"
+3|3|3|KPI4|KPI4_1722025|17/02/2025|"{""orden_id"": 303, ""fecha"": ""2025-02-14"", ""total"": 150.75}"
+4|4|4|KPI5|KPI5_1822025|18/02/2025|"{""empleado_id"": 404, ""nombre_empleado"": ""Carlos Ruiz"", ""salario"": 3500.00, ""departamento"": ""Ventas""}"
+5|5|5|KPI6|KPI6_1922025|19/02/2025|"{""categoria_id"": 30, ""nombre_categoria"": ""Aguas"", ""descripcion"": ""sta.Maria""}"
+6|6|6|KPI7|KPI7_2022025|20/02/2025|"{""transaccion_id"": 606, ""monto"": 75.25, ""fecha_transaccion"": ""2025-02-13"", ""metodo_pago"": ""Tarjeta de crédito""}"
+7|7|7|KPI8|KPI8_2122025|21/02/2025|"{""proyecto_id"": 707, ""nombre_proyecto"": ""Desarrollo de App"", ""presupuesto"": 50000.00, ""estado"": ""En progreso""}"
+8|8|8|KPI9|KPI9_2222025|22/02/2025|"{""inventario_id"": 808, ""producto"": ""Jugo de Naranja"", ""cantidad"": 150, ""precio_unitario"": 1.20}"
+9|9|9|KPI10|KPI10_2322025|23/02/2025|"{""evento_id"": 909, ""nombre_evento"": ""Conferencia Anual"", ""fecha_evento"": ""2025-03-01"", ""ubicacion"": ""Centro de Convenciones"", ""costo"": 200.00}"
