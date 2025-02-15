@@ -68,9 +68,8 @@ def main():
                               st.success('KPI data updated successfully!')
              
             case 'Enter new value to KPIs':
-                union_dataframe = pd.merge(left=user_security,right=role_securty,on=['RoleID'],how='inner')
-                union_dataframe = union_dataframe[['UserName','Role','KPIs']]
-                st.write(union_dataframe)
+                
+                st.write('TO DO')
 
 
         
