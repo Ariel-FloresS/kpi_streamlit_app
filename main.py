@@ -21,10 +21,11 @@ def main():
 
         role_id = principal_login.get_RoleID(user_email = user_email)
 
-        selection = st.pills(
+        selection = st.selectbox(
             label='Select an Action',
             options=['Update KPIs', 'Enter new value to KPIs'],
-            selection_mode='single'
+            index=None,
+            placeholder="Action ..."
         )
         
         match selection:
