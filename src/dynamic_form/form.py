@@ -74,14 +74,17 @@ class PrincipalForm:
         updated_dataframe = transform_dictionary_to_pandas(dictionary = dict_updated)
 
         # Create two columns for comparison.
-        col1, col2 = st.columns(spec = 2, border=True)
+        col1, col2 = st.columns(spec = 2)
 
         with col1:
-            st.header('Prevous data.')
-            st.dataframe(data = original_dataframe, hide_index = True)
+           
+           with st.container(border=True):
+                st.header('Prevous data.')
+                st.dataframe(data = original_dataframe, hide_index = True)
         with col2:
-            st.header('Updated data.')
-            st.dataframe(data = updated_dataframe, hide_index =True)
+            with st.container(border=True):
+                st.header('Updated data.')
+                st.dataframe(data = updated_dataframe, hide_index =True)
     
     def show(self)->dict:
         """
